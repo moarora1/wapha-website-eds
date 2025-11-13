@@ -77,6 +77,26 @@
             "value": "h6"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "textAlign",
+        "label": "Alignment",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
       }
     ]
   },
@@ -114,6 +134,14 @@
           {
             "name": "secondary",
             "value": "secondary"
+          },
+          {
+            "name": "login",
+            "value": "login"
+          },
+          {
+            "name": "light-blue",
+            "value": "light-blue"
           }
         ]
       }
@@ -136,6 +164,18 @@
           {
             "name": "Highlight",
             "value": "highlight"
+          },
+          {
+            "name": "blue-background",
+            "value": "blue-background"
+          },
+          {
+            "name": "dark-grey-background",
+            "value": "dark-grey-background"
+          },
+          {
+            "name": "black-background",
+            "value": "black-background"
           }
         ]
       }
@@ -156,6 +196,20 @@
         "name": "text",
         "value": "",
         "label": "Text",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "ctaText",
+        "value": "",
+        "label": "Button Label",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "ctaUrl",
+        "value": "",
+        "label": "Button URL",
         "valueType": "string"
       }
     ]
